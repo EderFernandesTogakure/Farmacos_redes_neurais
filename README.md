@@ -42,6 +42,14 @@ O projeto possui como objetivo principal a criação de um algoritmo machine lea
   Foram produzidas imagens a partir de pequenas transformações nos arquivos obtidos no Microscópio Óptico e foi possível compor um conjunto de base de treinamento com centenas de imagens. 
 Abaixo, segue imagem ilustrando o processo.
 
+![imagem_projeto1](https://user-images.githubusercontent.com/25067632/113519352-fd5c8f00-9561-11eb-9cf8-d5b48720f447.jpg)
+
+## Metodologia, detalhamento e evolução do projeto
+
+O projeto adotou tecnologia baseada em redes neurais convolucionais, ou seja, para um melhor entendimento, inteligência artificial em conjunto com processamento de imagens.
+Veja a figura abaixo uma figura demonstrando os passos para elaboração do projeto.
+
+
 
 
 
