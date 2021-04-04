@@ -56,7 +56,7 @@ Abaixo, segue imagem ilustrando o processo.
   * OpenCV:Biblioteca de programação de código aberto amplamente empregada no desenvolvimento de aplicativos na área de visão computacional;
   * Microscópio Óptico: Utilizado para fazer a captura de um conjunto de 20 imagens de 2 compostos distintos. 
 
-## Metodologia, detalhamento e evolução do projeto
+## Detalhamento e evolução do projeto
 
 O projeto adotou tecnologia baseada em redes neurais convolucionais, ou seja, para um melhor entendimento, inteligência artificial em conjunto com processamento de imagens.
 Veja a figura abaixo uma figura demonstrando os passos para elaboração do projeto.
