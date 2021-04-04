@@ -77,6 +77,7 @@ Será detalhado todos os processos da imagem acima:
   
 ## Cronograma
 
+![cronograma](https://user-images.githubusercontent.com/25067632/113520254-27b14b00-9568-11eb-9a95-017eb2a383a7.jpg)
 
 
 
