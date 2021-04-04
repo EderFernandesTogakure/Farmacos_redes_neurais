@@ -35,6 +35,13 @@ O projeto possui como objetivo principal a criação de um algoritmo machine lea
 * Verificar sua capacidade de identificação;
 * Avaliar sua disponibilidade de utilização.
 
+## Metodologia 
+
+  Obtenção da Base de Dados: Foi utilizado um Microscópio Óptico para se obter dezenas de imagens. Em seguida, sobre essas imagens, foi utilizado o processo de Data Augmentation (Aumento de dados de imagem) para gerar novas imagens de treinamento a fim de aumentar a generalidade do modelo e reduzir um possível overfitting (modelo treinado apenas para imagens utilizadas no estudo). 
+  
+  Foram produzidas imagens a partir de pequenas transformações nos arquivos obtidos no Microscópio Óptico e foi possível compor um conjunto de base de treinamento com centenas de imagens. 
+Abaixo, segue imagem ilustrando o processo.
+
 
 
 
