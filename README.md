@@ -44,10 +44,44 @@ Abaixo, segue imagem ilustrando o processo.
 
 ![imagem_projeto1](https://user-images.githubusercontent.com/25067632/113519352-fd5c8f00-9561-11eb-9cf8-d5b48720f447.jpg)
 
+## Ferramentas
+
+  As ferramentas que serão utilizadas neste projeto são:
+  
+  * Jupyter Notebook: Aplicação web utilizada como IDE. O Jupyter Notebook fornece um ambiente de ciência de dados interativo e fácil de usar em muitas linguagens de programação que não funciona apenas como um IDE, mas como uma  ferramenta didática;
+  * Google Colab: Ambiente de programação que fornece um poderoso recurso de computação científica  para executar códigos de Machine Learning a partir de uma GPU presente no servidor;
+  * Pythorch: Biblioteca de programação de código aberto usada para desenvolvimento de softwares de Machine Learning e Deep Learning;
+  * YOLO: Biblioteca de código aberto de visão computacional utilizada para detecção e classificação de objetos em tempo real;
+  * Darknet: Arquitetura de rede neural profunda utilizada no YOLO;
+  * OpenCV:Biblioteca de programação de código aberto amplamente empregada no desenvolvimento de aplicativos na área de visão computacional;
+  * Microscópio Óptico: Utilizado para fazer a captura de um conjunto de 20 imagens de 2 compostos distintos. 
+
 ## Metodologia, detalhamento e evolução do projeto
 
 O projeto adotou tecnologia baseada em redes neurais convolucionais, ou seja, para um melhor entendimento, inteligência artificial em conjunto com processamento de imagens.
 Veja a figura abaixo uma figura demonstrando os passos para elaboração do projeto.
+
+![imagem_projeto2](https://user-images.githubusercontent.com/25067632/113519557-6d1f4980-9563-11eb-8c51-af6f37edc15c.jpg)
+
+Será detalhado todos os processos da imagem acima:
+
+* Obtendo datasets. Os datasets são as imagens as quais serão inseridas no sistema para o treinamento da detecção dos polimorfos, quanto mais imagens forem obtidas para o treinamento e teste, maior será a precisão da detecção;
+* O pré-processamento e aumento das imagens. Nesta etapa, são extraídas as imagens originais, ou seja, os datasets das imagens inserido no sistema e faz as cópias delas com pequenas alterações nos arquivos para aumentar a precisão das detecções;
+* Classificação das imagens. Esta etapa é muito importante para um bom treinamento da rede neural convolucional, pois somente inserir as imagens no sistema não é o suficiente. Deve-se classificar os compostos dentro da imagem a serem treinados, ou seja, demonstrar cada polimorfo, demarcando-os com uma ferramenta específica de classificação;
+* Processo de execução dos treinos e testes de validação de dados. Nesta etapa do processo, é realizado o treinamento da rede neural convolucional, ou seja, está sendo ensinado como detectar os compostos descritos na imagem;
+* Execução dos dados treinados e validados em produção. Esta é a etapa final, na qual a rede neural foi treinada e agora fará a detecção dos polimorfos da maneira que foi programada. 
+
+## Resultados esperados
+
+  Espera-se que esse algoritmo seja eficaz na identificação de polimorfos em fármacos de forma rápida, precisa, exata, segura, livre de erros de interpretação humana e que agilize o processo.
+  
+## Cronograma
+
+
+
+
+
+
 
 
 
