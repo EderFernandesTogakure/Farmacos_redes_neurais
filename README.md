@@ -58,7 +58,7 @@ Abaixo, segue imagem ilustrando o processo.
 
 ## Detalhamento e evolução do projeto
 
-O projeto adotou tecnologia baseada em redes neurais convolucionais, ou seja, para um melhor entendimento, inteligência artificial em conjunto com processamento de imagens.
+O projeto ira adotar tecnologia baseada em redes neurais convolucionais, ou seja, para um melhor entendimento, inteligência artificial em conjunto com processamento de image
 Veja a figura abaixo uma figura demonstrando os passos para elaboração do projeto.
 
 ![imagem_projeto2](https://user-images.githubusercontent.com/25067632/113519557-6d1f4980-9563-11eb-8c51-af6f37edc15c.jpg)
