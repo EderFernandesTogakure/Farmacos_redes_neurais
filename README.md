@@ -8,6 +8,9 @@ Gabriel Santos Martins Dias| 172441	|Computação
 Wellen Góbi Botain         | 224798 |Saúde
 Wellington Cesar Alves     | 261819 |Saúde
 
+Link do video de apresentação do trabalho 
+[Video de apresentação de Ciência de Dados em Saúde](https://youtu.be/IGkQDs6klbo).
+
 ## Descrição Resumida do projeto 
 
    O polimorfismo de fármacos, representa um enorme desafio para a indústria farmacêutica, que busca, constantemente, desenvolver produtos farmacêuticos de qualidade, pois a descoberta de distintas formas cristalinas e sua influência no preparo de medicamentos, influencia de forma direta na saúde do usuário, pois pode acarretar prejuízos tanto ao paciente quanto a indústria.
