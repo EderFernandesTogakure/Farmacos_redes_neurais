@@ -74,6 +74,14 @@ Será detalhado todos os processos da imagem acima:
 * Processo de execução dos treinos e testes de validação de dados. Nesta etapa do processo, é realizado o treinamento da rede neural convolucional, ou seja, está sendo ensinado como detectar os compostos descritos na imagem;
 * Execução dos dados treinados e validados em produção. Esta é a etapa final, na qual a rede neural foi treinada e agora fará a detecção dos polimorfos da maneira que foi programada. 
 
+##Bases de Dados e Evolução
+
+Base de Dados              |  Endereço na Web  |Especialização
+---------------------------|-------------------|---------------
+Imagens Carbazepina        | https://drive.google.com/drive/folders/18DAq2LHdic0h5BrjEQ0FzsVOsHl3ztD3?usp=sharing	           |Imagens tirados diretos do microscopio forma 1 e 3,
+                           | 	                 |foi separado as imagens de treino e teste, 
+                           |                   |utilizando redes neurais convolucionais para destecção dos farmacos.
+
 ## Resultados esperados
 
   Espera-se que esse algoritmo seja eficaz na identificação de polimorfos em fármacos de forma rápida, precisa, exata, segura, livre de erros de interpretação humana e que agilize o processo.
