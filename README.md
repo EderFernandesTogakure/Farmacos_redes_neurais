@@ -13,20 +13,21 @@ Link do video de apresentação do trabalho
 
 ## Descrição Resumida do projeto 
 
-   O polimorfismo de fármacos, representa um enorme desafio para a indústria farmacêutica, que busca, constantemente, desenvolver produtos farmacêuticos de qualidade, pois a descoberta de distintas formas cristalinas e sua influência no preparo de medicamentos, influencia de forma direta na saúde do usuário, pois pode acarretar prejuízos tanto ao paciente quanto a indústria.
+   Um determinado fármaco, no estado sólido, pode se apresentar em diferentes formas. Estas formas incluem polimorfos (capacidade de uma substância se apresentar em duas ou mais formas cristalinas) e amorfos (formas sólidas que não têm nenhuma ordem molecular).
+   
+  O fenômeno do polimorfismo apresenta um desafio na indústria farmacêutica que pretende desenvolver medicamentos de qualidade, pois o desconhecimento das diferentes formas cristalinas e a influência destas no preparo de um medicamento poderá acarretar em grandes prejuízos para a saúde do paciente. Com isso, a pesquisa na área de polimorfismo é extremamente necessária e atual, sendo um assunto que não deve ser encarado somente como um problema, mas como um processo, que deve ser estudado e monitorado, desde a síntese da substância ativa até o armazenamento, resultando em maior qualidade aos medicamentos.
   
-   O ponto de partida para a fabricação de fármacos é a pré-formulação, sendo a primeira fase do desenvolvimento de formas farmacêuticas voltadas para a substância farmacologicamente ativa. Nesta fase ocorre a análise do fármaco em suas características físico-químicas como solubilidade, presença ou não de formas polifórmicas e seu comportamento frente à excipientes farmacêuticos ou outras substâncias farmacologicamente ativas.
+  A capacidade de uma molécula cristalizar em duas ou mais formas é definida como polimorfismo.
   
-   Na indústria farmacêutica o polimorfismo é considerado um parâmetro fundamental na fabricação de medicamentos sólidos, pois a criação de um fármaco sob uma ou outra forma cristalina implica nas propriedades físico-químicas desta substância, que irão afetar diretamente a solubilidade, e consequentemente a biodisponibilidade ou cinética.
+  Polimorfos diferentes de um mesmo composto geralmente apresentam diferenças significativas de solubilidade, processabilidade e estabilidade física e química. Estas diferenças físico-químicas modificam o comportamento da molécula quando em um meio biológico, inclusive podendo alterar sua biodisponibilidade.
   
-   A motivação deste trabalho é desenvolver um algoritmo machine learning, que agilize esse processo de identificação do polimorfismo dos fármacos, agilizando seu processo de identificação. Deseja-se utilizar esta disciplina para apresentar essa possibilidade em uma situação real, da prática cotidiana.
+  Embora uma molécula orgânica de um sólido possa existir sob duas ou mais formas cristalinas, apenas uma destas formas é termodinamicamente estável a uma determinada pressão e temperatura, com níveis energéticos potencialmente mais baixos, devido à redução do seu volume molecular em relação aos amorfos ou outro estado desordenado. Em geral, a forma mais estável (menor energia livre) de uma substância polimórfica exibe um ponto de fusão mais alto e menor solubilidade com o máximo de estabilidade química, ou seja, mantém sua integridade química dentro de limites especificados e as mesmas propriedades e características durante o período de armazenamento e uso (RAW et al., 2004; VISHWESHWAR et al., 2006).
+  
+  O polimorfismo pode também resultar em alterações na estabilidade química, principalmente para compostos com predisposição à degradação no estado sólido (ARAÚJO, 2009). Porém, dentre as consequências do polimorfismo, a mais crítica é a diferença na biodisponibilidade dos diferentes polimorfos de um fármaco, uma vez que, a velocidade de absorção de um fármaco depende da sua velocidade de dissolução, podendo torná-lo menos ativo, inativo ou tóxico de acordo com o tipo de polimorfo empregado (FERREIRA, 2011; CUFFINI et al., 2011).
+
 ## Pergunta de pesquisa
 
 O algoritmo machine learning desenvolvido é eficaz na identificação de polimorfos de fármacos?
-
-## Base de dados 
-
-As bases de dados utilizadas serão imagens de processos de identificação de componentes farmacos feitas em microscópios ópticos, nas quais estes componentes são feitos de forma manual. 
 
 As informações obtidas na imagem sobre estes componentes é a sua interpretação de qual tipo de componentes farmacos foram encontrado na imagem.
 
@@ -75,6 +76,7 @@ Será detalhado todos os processos da imagem acima:
 * Execução dos dados treinados e validados em produção. Esta é a etapa final, na qual a rede neural foi treinada e agora fará a detecção dos polimorfos da maneira que foi programada. 
 
 ## Bases de Dados e Evolução
+  As bases de dados utilizadas serão imagens de processos de identificação de componentes farmacos feitas em microscópios ópticos, nas quais estes componentes são feitos de forma manual. 
 
 Base de Dados              |  Endereço na Web  |Especialização
 ---------------------------|-------------------|---------------
@@ -87,6 +89,26 @@ Imagens Carbazepina        | https://drive.google.com/drive/folders/18DAq2LHdic0
 ## Cronograma
 
 ![cronograma](https://user-images.githubusercontent.com/25067632/113520254-27b14b00-9568-11eb-9a95-017eb2a383a7.jpg)
+
+## Referências:
+
+ARAUJO, G. L. B. Caracterização no estado sólido dos polimorfos de tibolona. Tese (Doutorado em Farmácia) - Faculdade de Ciências Farmacêuticas, Universidade de São Paulo, São Paulo, 2009. 
+
+CUFFINI, S. L.; PITALUGA, J. R. A; TOMBARI, D. Polimorfismo em fármacos. In: STORPIRTIS, S.; GONÇALVES, J. E.; CHIANN, C.; GAI, M. N.; editors. Biofarmacotécnica. Rio de Janeiro: Guanabara Koogan, 2011, p.21-31.
+
+Documentação do tensorflow. Tensorflow, 2021. Disponível em: <https://www.tensorflow.org/api_docs/python/tf?hl=pt-br>. Acesso em: 26 abr. 2021.
+
+FERREIRA, A. O. Guia Prático da Farmácia Magistral. 4. ed. São Paulo: Pharmabooks, 2011. 736 p.
+
+RAW, A. S; FURNESS, M. S.; GILL, D. S.; ADAMS, R. C.; HOLCOMBE JR, F. O.; YU, L. X. Regulatory considerations of pharmaceutical solid polymorphism in Abbreviated New Drug Applications (ANDAs). Advanced Drug Deliveries Amsterdam, v. 56, n.3, p. 397-414, fev. 2004.
+
+VISHWESHWAR, P.; MCMAHON, J. A.; BIS, J. A.; ZAWOROTKO, M. J. Pharmaceutical co-crystals. Journal of Pharmaceutical Sciences, v.95, n.3, p.499516, mar. 2006.
+
+YOLO v3 theory explained. Pylessons, 2019. Disponível em: <https://pylessons.com/YOLOv3-introduction/>. Acesso em: 26 abr. 2021.
+
+YOLO: Real-Time Object Detection . pjreddie, 2018. Disponivel em: < https://pjreddie.com/darknet/yolo/>. Acesso em: 26 Abr. 2021
+
+
 
 
 
