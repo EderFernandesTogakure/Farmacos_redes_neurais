@@ -78,9 +78,7 @@ Será detalhado todos os processos da imagem acima:
 
 Base de Dados              |  Endereço na Web  |Especialização
 ---------------------------|-------------------|---------------
-Imagens Carbazepina        | https://drive.google.com/drive/folders/18DAq2LHdic0h5BrjEQ0FzsVOsHl3ztD3?usp=sharing	           |Imagens tirados diretos do microscopio forma 1 e 3,
-                           | 	                 |foi separado as imagens de treino e teste, 
-                           |                   |utilizando redes neurais convolucionais para destecção dos farmacos.
+Imagens Carbazepina        | https://drive.google.com/drive/folders/18DAq2LHdic0h5BrjEQ0FzsVOsHl3ztD3?usp=sharing	           |Imagens tirados diretos do microscopio forma 1 e 3,foi separado as imagens de treino e teste, utilizando redes neurais convolucionais para destecção dos farmacos.
 
 ## Resultados esperados
 
