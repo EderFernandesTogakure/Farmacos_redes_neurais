@@ -5,7 +5,7 @@ Nome	                     |   RA	  |Especialização
 ---------------------------|--------|---------------
 Eder Carlos Fernandes	     | 208418	|Computação
 Gabriel Santos Martins Dias| 172441	|Computação
-Wellen Góbi Botain         | 224798 |Saúde
+Wellen Góbi Botacin         | 224798 |Saúde
 Wellington Cesar Alves     | 261819 |Saúde
 
 Link do video de apresentação do trabalho 
@@ -62,25 +62,25 @@ Abaixo, segue imagem ilustrando o processo.
 
 ## Detalhamento e evolução do projeto
 
-O projeto ira adotar tecnologia baseada em redes neurais convolucionais, ou seja, para um melhor entendimento, inteligência artificial em conjunto com processamento de image
+O projeto irá adotar tecnologia baseada em redes neurais convolucionais, ou seja, para um melhor entendimento, inteligência artificial em conjunto com processamento de imagem
 Veja a figura abaixo uma figura demonstrando os passos para elaboração do projeto.
 
 ![imagem_projeto2](https://user-images.githubusercontent.com/25067632/113519557-6d1f4980-9563-11eb-8c51-af6f37edc15c.jpg)
 
 Será detalhado todos os processos da imagem acima:
 
-* Obtendo datasets. Os datasets são as imagens as quais serão inseridas no sistema para o treinamento da detecção dos polimorfos, quanto mais imagens forem obtidas para o treinamento e teste, maior será a precisão da detecção;
-* O pré-processamento e aumento das imagens. Nesta etapa, são extraídas as imagens originais, ou seja, os datasets das imagens inserido no sistema e faz as cópias delas com pequenas alterações nos arquivos para aumentar a precisão das detecções;
+* Primeiro tópico obtendo datasets. Os datasets são as imagens que serão inseridas no sistema para o treinamento da detecção dos polimorfos, quanto mais imagens forem obtidas para o treinamento e teste, maior será a precisão da detecção;
+* O pré-processamento e aumento das imagens. Nesta etapa, são extraídas as imagens originais, ou seja, os datasets das imagens são inseridos no sistema e faz as cópias delas com pequenas alterações nos arquivos para aumentar a precisão das detecções;
 * Classificação das imagens. Esta etapa é muito importante para um bom treinamento da rede neural convolucional, pois somente inserir as imagens no sistema não é o suficiente. Deve-se classificar os compostos dentro da imagem a serem treinados, ou seja, demonstrar cada polimorfo, demarcando-os com uma ferramenta específica de classificação;
 * Processo de execução dos treinos e testes de validação de dados. Nesta etapa do processo, é realizado o treinamento da rede neural convolucional, ou seja, está sendo ensinado como detectar os compostos descritos na imagem;
 * Execução dos dados treinados e validados em produção. Esta é a etapa final, na qual a rede neural foi treinada e agora fará a detecção dos polimorfos da maneira que foi programada. 
 
 ## Bases de Dados e Evolução
-  As bases de dados utilizadas serão imagens de processos de identificação de componentes farmacos feitas em microscópios ópticos, nas quais estes componentes são feitos de forma manual. 
+  As bases de dados utilizadas serão imagens de processos de identificação de componentes fármacos feitas em microscópios óticos de forma manual. 
 
 Base de Dados              |  Endereço na Web  |Especialização
 ---------------------------|-------------------|---------------
-Imagens Carbazepina        | https://drive.google.com/drive/folders/18DAq2LHdic0h5BrjEQ0FzsVOsHl3ztD3?usp=sharing	           |Imagens tirados diretos do microscopio forma 1 e 3,foi separado as imagens de treino e teste, utilizando redes neurais convolucionais para destecção dos farmacos.
+Imagens Carbazepina        | https://drive.google.com/drive/folders/18DAq2LHdic0h5BrjEQ0FzsVOsHl3ztD3?usp=sharing	           |Imagens tirados diretos do microscopio forma 1 e 3,foi separado as imagens de treino e teste, utilizando redes neurais convolucionais para detecção dos fármacos.
 
 ## Resultados esperados
 
