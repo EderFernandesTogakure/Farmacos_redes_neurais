@@ -46,7 +46,7 @@ O projeto possui como objetivo principal a criação de um algoritmo machine lea
   Foram produzidas imagens a partir de pequenas transformações nos arquivos obtidos no Microscópio Óptico e foi possível compor um conjunto de base de treinamento com centenas de imagens. 
 Abaixo, segue imagem ilustrando o processo.
 
-![relatório](https://user-images.githubusercontent.com/25067632/120075138-7c5bd880-c076-11eb-9b87-142bc7f32947.jpg)
+![relatório](https://user-images.githubusercontent.com/25067632/120075355-4ec35f00-c077-11eb-9fa7-cd96279ef307.jpg)
 
 ## Ferramentas
 
