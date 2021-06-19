@@ -29,8 +29,6 @@ Link do video de apresentação do trabalho
 
 O algoritmo machine learning desenvolvido é eficaz na identificação de polimorfos de fármacos?
 
-As informações obtidas na imagem sobre estes componentes é a sua interpretação de qual tipo de componentes farmacos foram encontrado na imagem?
-
 ## Objetivos do Projeto
 
 O projeto possui como objetivo principal a criação de um algoritmo machine learning que auxilie na identificação do polimorfismo de fármacos. Busca-se também:
