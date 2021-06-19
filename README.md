@@ -27,7 +27,7 @@ Link do video de apresentação do trabalho
 
 ## Pergunta de pesquisa
 
-O algoritmo machine learning desenvolvido é eficaz na identificação de polimorfos de fármacos?
+O algoritmo machine learning desenvolvido é eficaz na identificação de polimorfos de fármacos para auxiliar a industria farmaceutica na produção de medicamentos de melhor solubilidade?
 
 ## Objetivos do Projeto
 
