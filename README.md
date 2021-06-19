@@ -29,7 +29,7 @@ Link do video de apresentação do trabalho
 
 O algoritmo machine learning desenvolvido é eficaz na identificação de polimorfos de fármacos?
 
-As informações obtidas na imagem sobre estes componentes é a sua interpretação de qual tipo de componentes farmacos foram encontrado na imagem.
+As informações obtidas na imagem sobre estes componentes é a sua interpretação de qual tipo de componentes farmacos foram encontrado na imagem?
 
 ## Objetivos do Projeto
 
